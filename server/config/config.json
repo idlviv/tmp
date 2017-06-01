@@ -1,0 +1,23 @@
+{
+  "port": 8080,
+  "mongoose": {
+    "uri": "mongodb://brad:brad@ds131041.mlab.com:31041/solodko",
+    "secret": "brad0",
+    "options": {
+      "server": {
+        "socketOptions": {
+          "keepAlive": 1
+        }
+      }
+    }
+  },
+  "session": {
+    "secret": "brad",
+    "key": "sid",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
+    }
+  }
+}
